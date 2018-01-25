@@ -8,7 +8,8 @@ class BoostOptionalConan(ConanFile):
     name = "boost_optional"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_optional"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["optional"]
     is_in_cycle_group = True
     is_header_only = True
